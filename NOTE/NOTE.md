@@ -239,4 +239,8 @@ Tetapi walaupun begitu orang lain masih bisa berkolaborasi walau statusnya bukan
 -----------
 ## **Membuat Repository Remote Github**
 
-> `git remote add origin https://github.com/username` kemudian `git push origin master`
+> - `git init`
+> - `git add README.md`
+> - `git commit -m "nama_commit"`
+> - `git remote add origin https://github.com/username/nama_repository.git`
+> - `git push -u origin master`
